@@ -1,0 +1,8 @@
+[submodule "vendor/glasgow"]
+	path = vendor/glasgow
+	url = https://github.com/ciaranm/glasgow-subgraph-solver.git
+	ignore = untracked
+[submodule "vendor/subgraphmatching"]
+	path = vendor/subgraphmatching
+	url = https://github.com/RapidsAtHKUST/SubgraphMatching.git
+	ignore = untracked

@@ -1,0 +1,191 @@
+\begin{thebibliography}{10}
+
+\bibitem{agbeto2025fastiso}
+Wilfried Agbeto, Camille Coti, and Vladimir Reinharz.
+\newblock {FASTiso}: Fast algorithm on search state tree for subgraph
+  isomorphism in graphs of any size and density.
+\newblock {\em bioRxiv}, 2025.
+
+\bibitem{bhattarai2019ceci}
+Bibek Bhattarai, Hang Liu, and H.~Howie Huang.
+\newblock {CECI}: Compact embedding cluster index for scalable subgraph
+  matching.
+\newblock In {\em Proceedings of the 2019 ACM SIGMOD International Conference
+  on Management of Data}, pages 1447--1462, 2019.
+
+\bibitem{bi2016cflmatch}
+Fei Bi, Lijun Chang, Xuemin Lin, Lu~Qin, and Wenjie Zhang.
+\newblock Efficient subgraph matching by postponing {Cartesian} products.
+\newblock In {\em Proceedings of the 2016 ACM SIGMOD International Conference
+  on Management of Data}, pages 1199--1214, 2016.
+
+\bibitem{bonnici2013ri}
+Vincenzo Bonnici, Rosalba Giugno, Alfredo Pulvirenti, Dennis Shasha, and
+  Alfredo Ferro.
+\newblock A subgraph isomorphism algorithm and its application to biochemical
+  data.
+\newblock {\em BMC Bioinformatics}, 14(Suppl 7):S13, 2013.
+
+\bibitem{carletti2018vf3}
+Vincenzo Carletti, Pasquale Foggia, Alessia Saggese, and Mario Vento.
+\newblock Challenging the time complexity of exact subgraph isomorphism for
+  huge and dense graphs with {VF3}.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  40(4):804--818, 2018.
+
+\bibitem{cordella2004vf2}
+Luigi~P. Cordella, Pasquale Foggia, Carlo Sansone, and Mario Vento.
+\newblock A (sub)graph isomorphism algorithm for matching large graphs.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  26(10):1367--1372, 2004.
+
+\bibitem{han2019dpiso}
+Myoungji Han, Hyunjoon Kim, Geonmo Gu, Kunsoo Park, and Wook-Shin Han.
+\newblock Efficient subgraph matching: Harmonizing dynamic programming,
+  adaptive matching order, and failing set together.
+\newblock In {\em Proceedings of the 2019 ACM SIGMOD International Conference
+  on Management of Data}, pages 1429--1446, 2019.
+\newblock The algorithm appears as DP-iso in follow-up comparisons; the
+  accompanying codebase is named DAF.
+
+\bibitem{han2013turboiso}
+Wook-Shin Han, Jinsoo Lee, and Jeong-Hoon Lee.
+\newblock {TurboISO}: Towards ultrafast and robust subgraph isomorphism search
+  in large graph databases.
+\newblock In {\em Proceedings of the 2013 ACM SIGMOD International Conference
+  on Management of Data}, pages 337--348, 2013.
+
+\bibitem{jiang2025survey}
+Haolin Jiang, Santosh Pandey, and Hang Liu.
+\newblock A comprehensive survey of subgraph matching: Experiments and
+  analysis.
+\newblock {\em Proceedings of the ACM on Management of Data}, 2025.
+
+\bibitem{juttner2018vf2pp}
+Alp{\'a}r J{\"u}ttner and P{\'e}ter Madarasi.
+\newblock {VF2++}---an improved subgraph isomorphism algorithm.
+\newblock {\em Discrete Applied Mathematics}, 242:69--81, 2018.
+
+\bibitem{katsarou2015indexed}
+Foteini Katsarou, Nikos Ntarmos, and Peter Triantafillou.
+\newblock Performance and scalability of indexed subgraph query processing
+  methods.
+\newblock {\em Proceedings of the VLDB Endowment}, 8(12):1566--1577, 2015.
+
+\bibitem{kotthoff2016portfolios}
+Lars Kotthoff, Ciaran McCreesh, and Christine Solnon.
+\newblock Portfolios of subgraph isomorphism algorithms.
+\newblock In {\em Learning and Intelligent Optimization (LION 10)}, volume
+  10079 of {\em Lecture Notes in Computer Science}, pages 107--122, 2016.
+
+\bibitem{kuraya2026sublime}
+Genryu Kuraya, Konstantinos Skitsas, Yuya Sasaki, Daichi Amagata, Davide
+  Mottin, and Panagiotis Karras.
+\newblock {Sublime}: Selecting subgraph matching algorithms via machine
+  learning.
+\newblock In {\em Proceedings of the 2026 ACM SIGMOD International Conference
+  on Management of Data}, 2026.
+\newblock Appeared in the SIGMOD 2026 poster session; code:
+  \url{https://github.com/GenryuK/Sublime-Selecting-Subgraph-Matching-Algorithms-via-Machine-Learning}.
+
+\bibitem{lee2013comparison}
+Jinsoo Lee, Wook-Shin Han, Romans Kasperovics, and Jeong-Hoon Lee.
+\newblock An in-depth comparison of subgraph isomorphism algorithms in graph
+  databases.
+\newblock {\em Proceedings of the VLDB Endowment}, 6(2):133--144, 2013.
+
+\bibitem{li2025rsm}
+Ziming Li, Yuequn Dou, Youhuan Li, Xinhuan Chen, and Chuxu Zhang.
+\newblock {RSM}: Reinforced subgraph matching framework with fine-grained
+  operation-based search plan.
+\newblock In {\em Proceedings of the 18th ACM International Conference on Web
+  Search and Data Mining (WSDM)}, 2025.
+
+\bibitem{lindauer2015autofolio}
+Marius Lindauer, Holger~H. Hoos, Frank Hutter, and Torsten Schaub.
+\newblock {AutoFolio}: An automatically configured algorithm selector.
+\newblock {\em Journal of Artificial Intelligence Research}, 53:745--778, 2015.
+
+\bibitem{glasgow_code}
+Ciaran McCreesh et~al.
+\newblock The glasgow subgraph solver.
+\newblock MIT licence.
+
+\bibitem{mccreesh2015glasgow}
+Ciaran McCreesh, Patrick Prosser, and James Trimble.
+\newblock A parallel, backjumping subgraph isomorphism algorithm using
+  supplemental graphs.
+\newblock In {\em Principles and Practice of Constraint Programming (CP 2015)},
+  volume 9255 of {\em Lecture Notes in Computer Science}, pages 295--312, 2015.
+
+\bibitem{nextmove2015faceoff}
+{NextMove Software}.
+\newblock Substructure searching face-off.
+\newblock Talk slides,
+  \url{https://www.nextmovesoftware.com/talks/May_SubsearchBenchmark_201505.pdf},
+  2015.
+
+\bibitem{ribeiro2021counting}
+Pedro Ribeiro, Pedro Paredes, Miguel E.~P. Silva, David Aparicio, and Fernando
+  Silva.
+\newblock A survey on subgraph counting: Concepts, algorithms, and applications
+  to network motifs and graphlets.
+\newblock {\em ACM Computing Surveys}, 54(2):28:1--28:36, 2021.
+
+\bibitem{rice1976algorithm}
+John~R. Rice.
+\newblock The algorithm selection problem.
+\newblock {\em Advances in Computers}, 15:65--118, 1976.
+
+\bibitem{solnon2010lad}
+Christine Solnon.
+\newblock Alldifferent-based filtering for subgraph isomorphism.
+\newblock {\em Artificial Intelligence}, 174(12--13):850--864, 2010.
+
+\bibitem{subgraphmatching_code}
+Shixuan Sun and Qiong Luo.
+\newblock Subgraphmatching: A common framework for in-memory subgraph matching.
+\newblock MIT licence.
+
+\bibitem{sun2020indepth}
+Shixuan Sun and Qiong Luo.
+\newblock In-memory subgraph matching: An in-depth study.
+\newblock In {\em Proceedings of the 2020 ACM SIGMOD International Conference
+  on Management of Data}, pages 1083--1098, 2020.
+
+\bibitem{sun2021rapidmatch}
+Shixuan Sun, Xibo Sun, Yulin Che, Qiong Luo, and Bingsheng He.
+\newblock {RapidMatch}: A holistic approach to subgraph query processing.
+\newblock {\em Proceedings of the VLDB Endowment}, 14(2):176--188, 2021.
+
+\bibitem{ullmann1976}
+Julian~R. Ullmann.
+\newblock An algorithm for subgraph isomorphism.
+\newblock {\em Journal of the ACM}, 23(1):31--42, 1976.
+
+\bibitem{xu2008satzilla}
+Lin Xu, Frank Hutter, Holger~H. Hoos, and Kevin Leyton-Brown.
+\newblock {SATzilla}: Portfolio-based algorithm selection for {SAT}.
+\newblock {\em Journal of Artificial Intelligence Research}, 32:565--606, 2008.
+
+\bibitem{yu2026parallel}
+Tao Yu, Zhijie Zhang, Weiguo Zheng, Jeffrey~Xu Yu, Qiang Zhou, and Chuntao
+  Hong.
+\newblock Characterizing parallel subgraph matching performance: A systematic
+  study of interactions, scalability, and enumeration.
+\newblock {\em Proceedings of the VLDB Endowment}, 19(7):1659--1673, 2026.
+
+\bibitem{zeng2020deepanalysis}
+Li~Zeng, Yan Jiang, Weixin Lu, and Lei Zou.
+\newblock Deep analysis on subgraph isomorphism.
+\newblock arXiv:2012.06802, 2020.
+\newblock Accompanying code: BoostISO / siep (GPL-3.0).
+
+\bibitem{zhang2024survey}
+Zhijie Zhang, Yujie Lu, Weiguo Zheng, and Xuemin Lin.
+\newblock A comprehensive survey and experimental study of subgraph matching:
+  Trends, unbiasedness, and interaction.
+\newblock {\em Proceedings of the ACM on Management of Data}, 2(1):60:1--60:29,
+  2024.
+
+\end{thebibliography}

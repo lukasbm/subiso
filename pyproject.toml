@@ -1,0 +1,102 @@
+[project]
+name = "subiso"
+version = "0.1.0"
+description = "Unified Subgraph Isomorphism Toolkit & Learned Dispatch"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Lukas Böhm" }]
+keywords = [
+    "subgraph-isomorphism",
+    "graph-matching",
+    "graph-mining",
+    "networkx",
+    "algorithm-selection",
+    "subgraphs",
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.12"
+dependencies = [
+    "networkx>=3.4",
+    "fire",
+]
+
+[project.urls]
+Homepage = "https://github.com/lukasbm/subiso"
+Repository = "https://github.com/lukasbm/subiso"
+Issues = "https://github.com/lukasbm/subiso/issues"
+
+[project.optional-dependencies]
+# The core is MIT and needs no compiled engine.  Everything below is opt-in.
+lad = [
+    "igraph>=1.0.0",          # GPL-2.0+: LAD backend, anchors and time limits
+]
+engines = [
+    "vf3py>=1.0.2",           # upstream declares no licence; ask before redistributing
+    "fastiso>=0.1.1",         # upstream declares no licence; ask before redistributing
+]
+chem = [
+    "rdkit>=2026.9.1",        # BSD-3: SMARTS matching and molecule helpers
+]
+all = [
+    "igraph>=1.0.0",
+    "vf3py>=1.0.2",
+    "fastiso>=0.1.1",
+    "rdkit>=2026.9.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "ruff",
+    "pyright",
+    "igraph>=1.0.0",
+    "vf3py>=1.0.2",
+    "fastiso>=0.1.1",
+    "subiso-glasgow",
+    "scikit-learn>=1.5",
+    "numpy",
+    "rdkit>=2026.9.1",
+    "matplotlib>=3.11.2",
+]
+
+[tool.uv.workspace]
+members = ["packages/subiso-glasgow"]
+
+[tool.uv.sources]
+subiso = { workspace = true }
+subiso-glasgow = { workspace = true }
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/subiso"]
+
+# Keep the sdist to our own sources: the Glasgow submodule, sibling packages,
+# and tests are not part of this distribution.
+[tool.hatch.build.targets.sdist]
+only-include = ["src/subiso", "README.md", "LICENSE", "pyproject.toml"]
+
+[tool.uv]
+package = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+exclude = [".venv", "vendor", "build", "dist", "output"]
+
+[tool.ruff.lint]
+select = ["F", "E", "B", "I", "UP", "SIM", "RET", "ARG"]
+ignore = ["E501", "ARG002"]
+
+[tool.pyright]
+reportMissingImports = false
+exclude = [".venv", "vendor", "build", "dist", "output", "packages/subiso-glasgow/build"]
